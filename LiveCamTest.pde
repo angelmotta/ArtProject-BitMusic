@@ -9,7 +9,7 @@ PImage mascara;
 
 void setup() {
   size(640, 480);
-  mascara = loadImage("/Users/angelinux/Data/UTEC/CICLO II/ArtTec/semana6/spider_mask_v2.png");
+  mascara = loadImage("/dir1/spider_mask_v2.png");
   video = new Capture(this, 640/2, 480/2);
   opencv = new OpenCV(this, 640/2, 480/2);
   opencv.loadCascade(OpenCV.CASCADE_FRONTALFACE);  
